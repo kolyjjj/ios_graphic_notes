@@ -49,6 +49,13 @@
         NSLog(@"Component %lu = %.02f", (unsigned long)counter+1, components[counter]);
     }
     
+    //load the image
+    UIImage *bar = [UIImage imageNamed:@"bar.jpg"];
+    if (bar != nil) {
+        NSLog(@"Successfullly loaded the image");
+    }else{
+        NSLog(@"Failed to load the image");
+    }
 }
 
 
