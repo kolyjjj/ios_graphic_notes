@@ -18,6 +18,7 @@
 		49FAFBAC167213570011B935 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FAFBAB167213570011B935 /* Default-568h@2x.png */; };
 		49FAFBAF167213570011B935 /* LIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FAFBAE167213570011B935 /* LIViewController.m */; };
 		49FAFBB2167213570011B935 /* LIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FAFBB0167213570011B935 /* LIViewController.xib */; };
+		49FAFBBA167215140011B935 /* LIGraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FAFBB9167215140011B935 /* LIGraphicsViewControllerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		49FAFBAD167213570011B935 /* LIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIViewController.h; sourceTree = "<group>"; };
 		49FAFBAE167213570011B935 /* LIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIViewController.m; sourceTree = "<group>"; };
 		49FAFBB1167213570011B935 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LIViewController.xib; sourceTree = "<group>"; };
+		49FAFBB8167215140011B935 /* LIGraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIGraphicsViewControllerView.h; sourceTree = "<group>"; };
+		49FAFBB9167215140011B935 /* LIGraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIGraphicsViewControllerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		49FAFB86167213570011B935 = {
 			isa = PBXGroup;
 			children = (
+				49FAFBB8167215140011B935 /* LIGraphicsViewControllerView.h */,
+				49FAFBB9167215140011B935 /* LIGraphicsViewControllerView.m */,
 				49FAFB9B167213570011B935 /* Graphics */,
 				49FAFB94167213570011B935 /* Frameworks */,
 				49FAFB92167213570011B935 /* Products */,
@@ -177,6 +182,7 @@
 				49FAFBA2167213570011B935 /* main.m in Sources */,
 				49FAFBA6167213570011B935 /* LIAppDelegate.m in Sources */,
 				49FAFBAF167213570011B935 /* LIViewController.m in Sources */,
+				49FAFBBA167215140011B935 /* LIGraphicsViewControllerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
