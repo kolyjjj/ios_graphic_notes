@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 //    [self emurateFonts];
-    UIFont *helveticaBold = [UIFont fontWithName:@"HelveticaNeue-Bold" size:14.0f];
+    
 }
 
 
