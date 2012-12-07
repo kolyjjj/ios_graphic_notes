@@ -37,7 +37,8 @@
     
     NSString *myString = @"Hello World!";
     
-    [myString drawAtPoint:CGPointMake(40, 180) withFont:helveticaBold];
+    //[myString drawAtPoint:CGPointMake(40, 180) withFont:helveticaBold];
+    [myString drawInRect:CGRectMake(100, 120, 100, 200) withFont:helveticaBold];
 }
 
 
