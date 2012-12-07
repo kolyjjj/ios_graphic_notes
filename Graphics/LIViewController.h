@@ -10,4 +10,5 @@
 
 @interface LIViewController : UIViewController
 
+- (void)emurateFonts;
 @end

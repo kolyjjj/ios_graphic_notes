@@ -18,12 +18,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self emurateFonts];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)emurateFonts
+{
+    for (NSString *fontFamily in [UIFont familyNames]) {
+        NSLog(@"%@", fontFamily);
+        for (NSString *fontName in [UIFont fontNamesForFamilyName:fontFamily]) {
+            NSLog(@"%@", fontName);
+        }
+    }
 }
 
 @end
