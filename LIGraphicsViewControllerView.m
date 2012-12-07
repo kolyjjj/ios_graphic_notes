@@ -50,12 +50,14 @@
     }
     
     //load the image
-    UIImage *bar = [UIImage imageNamed:@"bar.jpg"];
+    UIImage *bar = [UIImage imageNamed:@"bar.png"];
     if (bar != nil) {
         NSLog(@"Successfullly loaded the image");
     }else{
         NSLog(@"Failed to load the image");
     }
+    
+    [bar drawAtPoint:CGPointMake(0.0f, 0.0f)];
 }
 
 
