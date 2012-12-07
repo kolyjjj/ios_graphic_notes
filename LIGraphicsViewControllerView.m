@@ -39,6 +39,16 @@
     
     //[myString drawAtPoint:CGPointMake(40, 180) withFont:helveticaBold];
     [myString drawInRect:CGRectMake(100, 120, 100, 200) withFont:helveticaBold];
+    
+    //get the color components
+    CGColorRef colorRef = [magentaColor CGColor];
+    const CGFloat *components = CGColorGetComponents(colorRef);
+    NSInteger componentsCount = CGColorGetNumberOfComponents(colorRef);
+    NSInteger counter = 0;
+    for (counter = 0; counter < componentsCount; counter++) {
+        NSLog(@"Component %lu = %.02f", (unsigned long)counter+1, components[counter]);
+    }
+    
 }
 
 
