@@ -25,6 +25,14 @@
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
+    
+    //create the color
+    UIColor *magentaColor = [UIColor colorWithRed:0.5f green:0.0f blue:0.5f alpha:0.8f];
+    
+    //set the color in the graphical context
+    [magentaColor set];
+    
+    //load the font
     UIFont *helveticaBold = [UIFont fontWithName:@"HelveticaNeue-Bold" size:40.0f];
     
     NSString *myString = @"Hello World!";
